@@ -4,7 +4,8 @@ import {FaTwitter ,FaInstagram ,FaFacebookF , FaLinkedinIn} from "react-icons/fa
 const SocialShare = [
     {Social: <FaFacebookF /> , link: 'https://www.facebook.com/'},
     {Social: <FaLinkedinIn /> , link: 'https://www.linkedin.com/'},
-    {Social: <FaInstagram /> , link: 'https://www.instagram.com/'}
+    {Social: <FaInstagram /> , link: 'https://www.instagram.com/'},
+    {Social: <FaTwitter /> , link: 'https://twitter.com/'},
 ]
 
 class Footer extends Component{
@@ -33,10 +34,9 @@ class Footer extends Component{
                                             <div className="footer-link">
                                                 <h4>Quick Link</h4>
                                                 <ul className="ft-link">
-                                                    <li><a href="/">Home</a></li>
-                                                    <li><a href="/about">About Us</a></li>
-                                                    <li><a href="/about">Career</a></li>
-                                                    <li><a href="/contact">Contact</a></li>
+                                                    <li><a href="/portfolio">Work</a></li>
+                                                    <li><a href="/about">About</a></li>
+                                                    <li><a href="/contact">Let's Talk</a></li>
                                                 </ul>
                                             </div>
                                         </div>
