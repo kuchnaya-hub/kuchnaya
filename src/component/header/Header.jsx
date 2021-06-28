@@ -61,7 +61,7 @@ class Header extends Component{
                         <nav className="mainmenunav d-lg-block">
                             <ul className="mainmenu">
                                 <li><Link to="/">Home</Link> </li>
-                                <li><Link to="/about" >About Us</Link></li>
+                                
                                 <li className="has-droupdown"><Link to="/interactive-agency" >Services</Link>
                                     <ul className="submenu">
                                         <li><Link to="/interactive-agency">Services</Link></li>
@@ -69,7 +69,7 @@ class Header extends Component{
                                     </ul>
                                 </li>
                                 <li><Link to="/products" >Products</Link></li>
-                                
+                                <li><Link to="/about" >About Us</Link></li>
                                
                             
                               
