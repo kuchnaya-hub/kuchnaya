@@ -1,11 +1,10 @@
 import React from 'react';
-import {FaTwitter ,FaInstagram ,FaFacebookF , FaLinkedinIn} from "react-icons/fa";
+import {FaInstagram ,FaFacebookF , FaLinkedinIn} from "react-icons/fa";
 
 const SocialShare = [
     {Social: <FaFacebookF /> , link: 'https://www.facebook.com/'},
     {Social: <FaLinkedinIn /> , link: 'https://www.linkedin.com/'},
-    {Social: <FaInstagram /> , link: 'https://www.instagram.com/'},
-    {Social: <FaTwitter /> , link: 'https://twitter.com/'},
+    {Social: <FaInstagram /> , link: 'https://www.instagram.com/'}
 ]
 
 const FooterTwo = () => {
@@ -34,7 +33,7 @@ const FooterTwo = () => {
                     <div className="col-lg-4 col-md-12 col-sm-12 col-12">
                         <div className="inner text-lg-right text-center mt_md--20 mt_sm--20">
                             <div className="text">
-                                <p>Copyright © 2021 Rainbow-Themes. All Rights Reserved.</p>
+                                <p>Copyright © 2021 Kuchnaya Technolabs PVT LTD. All Rights Reserved.</p>
                             </div>
                         </div>
                     </div>
