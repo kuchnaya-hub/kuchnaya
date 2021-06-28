@@ -8,30 +8,30 @@ const PortfolioList = [
     {
         image: 'image-1',
         category: 'Development',
-        title: ' Getting tickets to the big show'
+        title: ' WalkMyMind is an app offered through employers and insurers.'
     },
     {
         image: 'image-2',
         category: 'Development',
-        title: ' goTrekket'
+        title: ' Adventure Provider'
     },
     {
         image: 'image-3',
         category: 'Development',
-        title: ' Getting tickets to the big show'
+        title: ' Video Ad Maker for Resellers'
     },
     {
         image: 'image-4',
         category: 'Development',
-        title: ' Getting tickets to the big show'
+        title: ' Social and News App'
     },
     {
-        image: 'image-3',
+        image: 'image-5',
         category: 'Development',
         title: ' Getting tickets to the big show'
     },
     {
-        image: 'image-4',
+        image: 'image-6',
         category: 'Development',
         title: ' Getting tickets to the big show'
     }

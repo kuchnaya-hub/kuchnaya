@@ -56,8 +56,8 @@ class Contact extends Component{
                                     </div>
                                     <div className="inner">
                                         <h4 className="title">Contact With Phone Number</h4>
-                                        <p><a href="tel:+057 254 365 456">+057 254 365 456</a></p>
-                                        <p><a href="tel:+856 325 652 984">+856 325 652 984</a></p>
+                                        <p><a href="tel:+057 254 365 456">+91 86919 34511</a></p>
+                                        <br></br><br></br>
                                     </div>
                                 </div>
                             </div>
@@ -71,8 +71,8 @@ class Contact extends Component{
                                     </div>
                                     <div className="inner">
                                         <h4 className="title">Email Address</h4>
-                                        <p><a href="mailto:admin@gmail.com">admin@gmail.com</a></p>
-                                        <p><a href="mailto:example@gmail.com">example@gmail.com</a></p>
+                                        <p><a href="mailto:support@kuchnaya.com">support@kuchnaya.com</a></p>
+                                        <br></br><br></br>
                                     </div>
                                 </div>
                             </div>
@@ -86,7 +86,7 @@ class Contact extends Component{
                                     </div>
                                     <div className="inner">
                                         <h4 className="title">Location</h4>
-                                        <p>5678 Bangla Main Road, cities 580 <br /> GBnagla, example 54786</p>
+                                        <p>Office no 127, Ashar Enclave Commercial, Kolshet Rd, Thane West, Thane, Maharashtra 400607</p>
                                     </div>
                                 </div>
                             </div>
