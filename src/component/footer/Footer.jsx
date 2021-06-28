@@ -38,6 +38,7 @@ class Footer extends Component{
                                                     <li><a href="/interactive-agency">Services</a></li>
                                                     <li><a href="/products">Products</a></li>
                                                     <li><a href="/career">Career</a></li>
+                                                    <li><a href="/contact">Contact</a></li>
                                                 </ul>
                                             </div>
                                         </div>
