@@ -76,11 +76,11 @@ class Portfolio extends Component{
                                             <h4 className="title"><a href={value.link}>{value.title}</a></h4>
                                             <div className="portfolio-button">
                                                 
-                                                <a className="rn-btn" href={value.link} target="_blank" >View</a>
+                                                <a className="rn-btn" target="_blank" rel="noopener noreferrer" href={value.link}  >View</a>
                                             </div>
                                         </div>
                                     </div>
-                                    <Link className="link-overlay" to={value.link} target="_blank" ></Link>
+                                    <Link className="link-overlay" target="_blank" rel="noopener noreferrer" to={value.link}  ></Link>
 
                                   {/*  <Link to={{ pathname: {value.link} }} target="_blank" /> */}
                                 </div>
