@@ -9,12 +9,12 @@ import CounterOne from "../elements/counters/CounterOne";
 import BrandTwo from "../elements/BrandTwo";
 import About from "../component/HomeLayout/homeOne/About";
 import Portfolio from "../component/HomeLayout/homeOne/Portfolio";
-import BlogContent from "../elements/blog/BlogContent";
+// import BlogContent from "../elements/blog/BlogContent";
 import Helmet from "../component/common/Helmet";
 
 class MainDemo extends Component{
     render(){
-      
+       // const PostList = BlogContent.slice(0 , 3);
         return(
             <div className="active-dark"> 
                 <Helmet pageTitle="Kuchnaya Technolobs PVT LTD" />

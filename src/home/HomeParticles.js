@@ -1,5 +1,4 @@
 import React, { Component , Fragment } from "react";
-import Slider from "react-slick";
 import {Link} from "react-router-dom";
 
 
@@ -48,7 +47,7 @@ class HomeParticles extends Component{
     }
     stickyHeader () {}
     render(){
-        const PostList = BlogContent.slice(0 , 5);
+        // const PostList = BlogContent.slice(0 , 5);
         
         window.addEventListener('scroll', function() {
             var value = window.scrollY;
