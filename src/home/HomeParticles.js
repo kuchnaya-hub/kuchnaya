@@ -9,7 +9,6 @@ import Particles from 'react-particles-js';
 import { FiChevronUp , FiX , FiMenu } from "react-icons/fi";
 import ServiceList from "../elements/service/ServiceList";
 import CounterOne from "../elements/counters/CounterOne";
-import Testimonial from "../elements/Testimonial";
 import Team from "../elements/Team";
 import BlogContent from "../elements/blog/BlogContent";
 import BrandTwo from "../elements/BrandTwo";
@@ -214,43 +213,7 @@ class HomeParticles extends Component{
                 </div>  
                 {/* End Service Area  */} 
 
-                {/* Start About Area */}
-                <div className="about-area ptb--120 bg_color--5" id="about">
-                    <div className="about-wrapper">
-                        <div className="container">
-                            <div className="row row--35 align-items-center">
-                                <div className="col-lg-5">
-                                    <div className="thumbnail">
-                                        <img className="w-100" src="/assets/images/about/about-3.jpg" alt="About Images"/>
-                                    </div>
-                                </div>
-                                <div className="col-lg-7">
-                                    <div className="about-inner inner">
-                                        <div className="section-title">
-                                            <h2 className="title">About Us</h2>
-                                            <p className="description">There are many variations of passages of Lorem Ipsum available, but the majority have suffered <a href="#alteration">alteration</a> in some form, by injected humour, or randomised words which dont look even slightly believable. If you are going to use a passage of Lorem Ipsum,</p>
-                                        </div>
-                                        <div className="row mt--30">
-                                            <div className="col-lg-6 col-md-12 col-sm-12 col-12">
-                                                <div className="about-us-list">
-                                                    <h3 className="title">Who we are</h3>
-                                                    <p>There are many vtions of passages of Lorem Ipsum available, but the majority have suffered.</p>
-                                                </div>
-                                            </div>
-                                            <div className="col-lg-6 col-md-12 col-sm-12 col-12">
-                                                <div className="about-us-list">
-                                                    <h3 className="title">Who we are</h3>
-                                                    <p>There are many vtions of passages of Lorem Ipsum available, but the majority have suffered.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                {/* End About Area */}
+              
 
                 {/* Start Portfolio Area */}
                 <div className="portfolio-area pt--120 pb--140 bg_color--1" id="portfolio">
@@ -329,13 +292,6 @@ class HomeParticles extends Component{
                 </div>
                 {/* End Team Area  */}
 
-                {/* Start Testimonial Area */}
-                <div className="rn-testimonial-area bg_color--5 ptb--120" id="testimonial">
-                    <div className="container">
-                        <Testimonial />
-                    </div>
-                </div>
-                {/* End Testimonial Area */}
                 
 
                 {/* Start Blog Area */}
