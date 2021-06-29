@@ -7,7 +7,7 @@ import Footer from "../component/footer/Footer";
 import SliderOne from "../component/slider/SliderOne";
 import ServiceTwo from "../elements/service/ServiceTwo";
 import CounterOne from "../elements/counters/CounterOne";
-import Testimonial from "../elements/Testimonial";
+{/* import Testimonial from "../elements/Testimonial";  */}
 import About from "../component/HomeLayout/homeOne/About";
 import Portfolio from "../component/HomeLayout/homeOne/Portfolio";
 import BlogContent from "../elements/blog/BlogContent";
