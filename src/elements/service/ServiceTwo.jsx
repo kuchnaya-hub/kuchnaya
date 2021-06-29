@@ -1,24 +1,27 @@
 import React, { Component } from "react";
-import { FiCast , FiLayers , FiUsers , FiMonitor } from "react-icons/fi";
+import { FiPackage, FiUsers , FiTablet, FiGlobe} from "react-icons/fi";
+
+
+
 
 const ServiceList = [
     {
-        icon: <FiCast />,
-        title: 'Brand Identity',
+        icon: <FiPackage />,
+        title: 'Product Development',
         description: 'I throw myself down among the tall grass by the stream as I lie close to the earth.'
     },
     {
-        icon: <FiLayers />,
+        icon: <FiGlobe />,
         title: 'Website Development',
         description: 'I throw myself down among the tall grass by the stream as I lie close to the earth.'
     },
     {
         icon: <FiUsers />,
-        title: 'Marketing & Reporting',
+        title: 'Business Augmentation',
         description: 'I throw myself down among the tall grass by the stream as I lie close to the earth.'
     },
     {
-        icon: <FiMonitor />,
+        icon: <FiTablet />,
         title: 'Mobile App Development',
         description: 'I throw myself down among the tall grass by the stream as I lie close to the earth.'
     }

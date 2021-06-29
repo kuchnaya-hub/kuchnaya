@@ -56,7 +56,7 @@ class MainDemo extends Component{
                         <div className="row">
                             <div className="col-lg-12">
                                 <div className="section-title text-center">
-                                    <h3 className="fontWeight500">Clients</h3>
+                                    <h3 className="fontWeight500">Our Fun Facts</h3>
                                 </div>
                             </div>
                         </div>
@@ -66,26 +66,41 @@ class MainDemo extends Component{
                 {/* End CounterUp Area */}
 
                 {/* Start Testimonial Area */}
-                <div className="rn-testimonial-area bg_color--5 ptb--120">
+               {/*  <div className="rn-testimonial-area bg_color--5 ptb--120">
                     <div className="container">
                         <Testimonial />
                     </div>
-                </div>
+                </div> */}
+
+                
                 {/* End Testimonial Area */}
 
+
+                  {/* Start Brand Area */}
+                  <div className="rn-brand-area bg_color--5 ptb--120">
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-lg-12">
+                                <BrandTwo />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {/* End Brand Area */}
+
                 {/* Start Blog Area */}
-                <div className="rn-blog-area pt--120 bg_color--1 mb-dec--30">
+                <div className="rn-blog-area ptb--120 bg_color--1 mb-dec--30">
                     <div className="container">
                         <div className="row align-items-end">
                             <div className="col-lg-6 col-md-12 col-sm-12 col-12">
                                 <div className="section-title text-left">
-                                    <h2>Latest Tech</h2>
+                                    <h2>Our Tech World</h2>
                                     <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
                                 </div>
                             </div>
                             <div className="col-lg-6 col-md-12 col-sm-12 col-12">
                                 <div className="blog-btn text-left text-lg-right mt_sm--10 mt_md--10">
-                                    <a className="btn-transparent rn-btn-dark" href="/blog"><span className="text">View All News</span></a>
+                                    <a className="btn-transparent rn-btn-dark" href="/blog"><span className="text">All Tech Blogs</span></a>
                                 </div>
                             </div>
                         </div>
@@ -114,7 +129,7 @@ class MainDemo extends Component{
                 {/* End Blog Area */}
 
                 {/* Start Brand Area */}
-                <div className="rn-brand-area brand-separation pb--120">
+             {/* <div className="rn-brand-area brand-separation pb--120">
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-12">
@@ -122,7 +137,7 @@ class MainDemo extends Component{
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
                 {/* End Brand Area */}
                 {/* Start Back To Top */}
                 <div className="backto-top">

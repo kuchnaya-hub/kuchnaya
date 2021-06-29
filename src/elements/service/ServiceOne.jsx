@@ -1,9 +1,10 @@
 import React, { Component } from "react";
 
+
 const ServiceList = [
     {
         icon: '01',
-        title: 'Brand Identity',
+        title: 'Product Development',
         description: 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered.'
     },
     {
