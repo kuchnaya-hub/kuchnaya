@@ -14,7 +14,7 @@ import Helmet from "../component/common/Helmet";
 
 class MainDemo extends Component{
     render(){
-        const PostList = BlogContent.slice(0 , 3);
+      
         return(
             <div className="active-dark"> 
                 <Helmet pageTitle="Kuchnaya Technolobs PVT LTD" />
