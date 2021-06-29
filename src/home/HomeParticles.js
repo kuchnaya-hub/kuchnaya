@@ -107,7 +107,7 @@ class HomeParticles extends Component{
                 <Helmet pageTitle="Home Particles" />
 
                 {/* Start Header Area  */}
-                <header className="header-area formobile-menu header--fixed default-color">
+                <header className="header-area formobile-menu header--fixed default-color" style={{paddingTop : '30px', paddingBottom:'30px'}}>
                     <div className="header-wrapper" id="header-wrapper">
                         <div className="header-left">
                             <div className="logo">
@@ -120,19 +120,19 @@ class HomeParticles extends Component{
                         <div className="header-right">
                             <nav className="mainmenunav d-lg-block">
                                 <Scrollspy className="mainmenu" items={['home','service', 'about', 'portfolio','team','testimonial','blog', 'contact']} currentClassName="is-current" offset={-200}>
-                                    <li><a href="#home">Home</a></li>
-                                    <li><a href="#service">Service</a></li>
-                                    <li><a href="#about">About</a></li>
-                                    <li><a href="#portfolio">Portfolio</a></li>
-                                    <li><a href="#team">Team</a></li>
-                                    <li><a href="#testimonial">Testimonial</a></li>
-                                    <li><a href="#blog">Blog</a></li>
-                                    <li><a href="#contact">Contact</a></li>
+                            
+                                    <li><Link to="/">Home</Link> </li>
+                                <li><Link to="/interactive-agency">Services</Link> </li>
+                                <li><Link to="/home-particles" >Products</Link></li>
+                                <li><Link to="/about" >About Us</Link></li>
+
+                                    
                                 </Scrollspy>
+                        
                             </nav>
                             <div className="header-btn">
-                                <a className="rn-btn" href="https://themeforest.net/checkout/from_item/25457315?license=regular">
-                                    <span>buy now</span>
+                            <a className="rn-btn" href="/contact">
+                                    <span>Contact</span>
                                 </a>
                             </div>
                             {/* Start Humberger Menu  */}
