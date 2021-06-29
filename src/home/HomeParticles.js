@@ -27,38 +27,7 @@ const SlideList = [
     }
 ]
 
-const list = [
-    {
-        image: 'image-1',
-        category: 'Development',
-        title: 'Getting tickets to the big show'
-    },
-    {
-        image: 'image-2',
-        category: 'Development',
-        title: 'Getting tickets to the big show'
-    },
-    {
-        image: 'image-3',
-        category: 'Development',
-        title: 'Getting tickets to the big show'
-    },
-    {
-        image: 'image-4',
-        category: 'Development',
-        title: 'Getting tickets to the big show'
-    },
-    {
-        image: 'image-3',
-        category: 'Development',
-        title: 'Getting tickets to the big show'
-    },
-    {
-        image: 'image-4',
-        category: 'Development',
-        title: 'Getting tickets to the big show'
-    }
-]
+
 
 class HomeParticles extends Component{
     constructor(props) {
@@ -215,48 +184,7 @@ class HomeParticles extends Component{
 
               
 
-                {/* Start Portfolio Area */}
-                <div className="portfolio-area pt--120 pb--140 bg_color--1" id="portfolio">
-                    <div className="rn-slick-dot">
-                        <div className="container">
-                            <div className="row">
-                                <div className="col-lg-6">
-                                    <div className="section-title service-style--3 text-left mb--15 mb_sm--0">
-                                        <h2 className="title">Our Portfolio</h2>
-                                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="row">
-                                <div className="col-lg-12">
-                                    <div className="slick-space-gutter--15 slickdot--20">
-                                        <Slider {...slickDot}>
-                                            {list.map((value , index) => (
-                                                <div className="portfolio" key={index}>
-                                                    <div className="thumbnail-inner">
-                                                        <div className={`thumbnail ${value.image}`}></div>
-                                                        <div className={`bg-blr-image ${value.image}`}></div>
-                                                    </div>
-                                                    <div className="content">
-                                                        <div className="inner">
-                                                            <p>{value.category}</p>
-                                                            <h4><a href="/portfolio-details">{value.title}</a></h4>
-                                                            <div className="portfolio-button">
-                                                                <a className="rn-btn" href="/portfolio-details">Case Study</a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <Link className="link-overlay" to="/portfolio-details"></Link>
-                                                </div>
-                                            ))}
-                                        </Slider>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                {/* End Portfolio Area */}
+              
 
 
                 {/* Start CounterUp Area */}
