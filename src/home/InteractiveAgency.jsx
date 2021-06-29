@@ -61,7 +61,7 @@ const ServiceList = [
 const InteractiveAgency = () => {
     return (
         <>
-            <Helmet pageTitle="Interactive Agency" />
+            <Helmet pageTitle="Services" />
             <Header />
             
             {/* Start Slider Area   */}

@@ -9,7 +9,7 @@ import ServiceList from "../elements/service/ServiceList";
 import CounterOne from "../elements/counters/CounterOne";
 import Testimonial from "../elements/Testimonial";
 import Team from "../elements/Team";
-// import BlogContent from "../elements/blog/BlogContent";
+import BlogContent from "../elements/blog/BlogContent";
 import BrandTwo from "../elements/BrandTwo";
 import FooterTwo from "../component/footer/FooterTwo";
 import ScrollToTop from 'react-scroll-up';
@@ -30,7 +30,7 @@ const image1 =
     }
 ]
 
- {/* const list = [
+const list = [
     {
         image: 'image-1',
         category: 'Development',
@@ -61,11 +61,11 @@ const image1 =
         category: 'Development',
         title: 'Getting tickets to the big show'
     }
-] */}
+]
 
 class CreativeAgency extends Component{
     render(){
-        // const PostList = BlogContent.slice(0 , 5);
+        const PostList = BlogContent.slice(0 , 5);
         return(
             <Fragment>
                 <Helmet pageTitle="Creative Agency" />
@@ -107,7 +107,7 @@ class CreativeAgency extends Component{
                 {/* End Service Area  */} 
 
                 {/* Start Portfolio Area */}
-                {/* <div className="portfolio-area pt--120 pb--140 bg_color--5">
+                <div className="portfolio-area pt--120 pb--140 bg_color--5">
                     <div className="rn-slick-dot">
                         <div className="container">
                             <div className="row">
@@ -147,7 +147,7 @@ class CreativeAgency extends Component{
 
                         </div>
                     </div>
-                </div> */}
+                </div>
                 {/* End Portfolio Area */}
 
 
@@ -185,16 +185,16 @@ class CreativeAgency extends Component{
                 {/* End Team Area  */}
 
                 {/* Start Testimonial Area */}
-               {/* <div className="rn-testimonial-area bg_color--1 ptb--120">
+                <div className="rn-testimonial-area bg_color--1 ptb--120">
                     <div className="container">
                         <Testimonial />
                     </div>
-                </div> */}
+                </div>
                 {/* End Testimonial Area */}
                 
 
                 {/* Start Blog Area */}
-                 {/* <div className="rn-blog-area pt--120 pb--140 bg_color--5">
+                <div className="rn-blog-area pt--120 pb--140 bg_color--5">
                     <div className="container">
                         <div className="row align-items-end">
                             <div className="col-lg-6">
@@ -227,7 +227,7 @@ class CreativeAgency extends Component{
                             </div>
                         </div>    
                     </div>    
-                </div> */}
+                </div>
                 {/* End Blog Area */}
 
 

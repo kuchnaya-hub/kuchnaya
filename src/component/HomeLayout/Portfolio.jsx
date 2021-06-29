@@ -80,9 +80,9 @@ class Portfolio extends Component{
                                             </div>
                                         </div>
                                     </div>
-                                
+                                    <Link className="link-overlay" to={value.link}></Link>
 
-                                    <Link className="link-overlay" to={{ pathname: {value.link} }} target="_blank" ></Link>
+                                   {/*<Link to={{ pathname: "https://example.zendesk.com/hc/en-us/articles/123456789-Privacy-Policies" }} target="_blank" />  */} 
                                 </div>
                             ))}
                         </Slider>

@@ -81,9 +81,9 @@ class Portfolio extends Component{
                                             </div>
                                         </div>
                                     </div>
-                                    <Link className="link-overlay" target="_blank" rel="noopener noreferrer" to={value.link}  ></Link>
+                                   {/* <Link className="link-overlay" target="_blank" rel="noopener noreferrer" to={value.link}  ></Link> */}
 
-                                  {/*  <Link to={{ pathname: {value.link} }} target="_blank" /> */}
+                                    <Link to={{ pathname: value.link }} target="_blank" /> 
                                 </div>
                             ))}
                         </Slider>
