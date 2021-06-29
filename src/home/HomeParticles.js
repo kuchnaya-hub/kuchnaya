@@ -8,7 +8,7 @@ import Particles from 'react-particles-js';
 import { FiChevronUp , FiX , FiMenu } from "react-icons/fi";
 import ServiceList from "../elements/service/ServiceList";
 import CounterOne from "../elements/counters/CounterOne";
-import BlogContent from "../elements/blog/BlogContent";
+// import BlogContent from "../elements/blog/BlogContent";
 import BrandTwo from "../elements/BrandTwo";
 import FooterTwo from "../component/footer/FooterTwo";
 import Contact from "../elements/contact/ContactTwo";
