@@ -8,14 +8,15 @@ const PortfolioList = [
     {
         image: 'image-1',
         category: 'Development',
-        title: ' WalkMyMind is an app offered through employers and insurers.',
-        link: 'https://in.godaddy.com/'
+        title: ' Adventure Provider',
+        link: 'https://dev.gotrekket.com/'
+        
     },
     {
         image: 'image-2',
         category: 'Development',
-        title: ' Adventure Provider',
-        link: 'https://dev.gotrekket.com/'
+        title: ' WalkMyMind is an app offered through employers and insurers.',
+        link: 'https://walkmymind.com/'
         
     },
     {

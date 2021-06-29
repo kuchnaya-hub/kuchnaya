@@ -14,8 +14,9 @@ const AnyReactComponent = ({ text }) => <div>{text}</div>;
 class Contact extends Component{
     static defaultProps = {
         center: {
-            lat: 59.95,
-            lng: 30.33
+            lat: 19.224964260246555,
+            lng: 72.9791312386293
+            
         },
         zoom: 11
     };
