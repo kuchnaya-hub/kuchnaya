@@ -2,14 +2,13 @@ import React, { Component , Fragment } from "react";
 import Slider from "react-slick";
 import {Link} from "react-router-dom";
 
-import { slickDot } from "../page-demo/script";
+
 import Scrollspy from 'react-scrollspy';
 import ScrollToTop from 'react-scroll-up';
 import Particles from 'react-particles-js';
 import { FiChevronUp , FiX , FiMenu } from "react-icons/fi";
 import ServiceList from "../elements/service/ServiceList";
 import CounterOne from "../elements/counters/CounterOne";
-import Team from "../elements/Team";
 import BlogContent from "../elements/blog/BlogContent";
 import BrandTwo from "../elements/BrandTwo";
 import FooterTwo from "../component/footer/FooterTwo";
@@ -202,62 +201,11 @@ class HomeParticles extends Component{
                 </div>
                 {/* End CounterUp Area */}
 
-                {/* Start Team Area  */}
-                <div className="rn-team-area ptb--120 bg_color--1" id="team">
-                    <div className="container">
-                        <div className="row">
-                            <div className="col-lg-6">
-                                <div className="section-title service-style--3 text-left mb--25 mb_sm--0">
-                                    <h2 className="title">Skilled Team</h2>
-                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="row">
-                            <Team column="col-lg-4 col-md-6 col-sm-6 col-12" />
-                        </div>
-                    </div>
-                </div>
-                {/* End Team Area  */}
+              
 
                 
 
-                {/* Start Blog Area */}
-                <div className="rn-blog-area pt--120 pb--140 bg_color--1" id="blog">
-                    <div className="container">
-                        <div className="row align-items-end">
-                            <div className="col-lg-6">
-                                <div className="section-title text-left">
-                                    <h2>Latest News</h2>
-                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="row mt--55 mt_sm--30 rn-slick-dot slick-space-gutter--15 slickdot--20 row--0">
-                            <div className="col-lg-12">
-                                <Slider {...slickDot}>
-                                    {PostList.map((value , i ) => (
-                                        <div className="blog blog-style--1" key={i}>
-                                            <div className="thumbnail">
-                                                <a href="/blog-details">
-                                                    <img src={`/assets/images/blog/blog-${value.images}.jpg`} alt="Blog Images"/>
-                                                </a>
-                                            </div>
-                                            <div className="content">
-                                                <p className="blogtype">{value.category}</p>
-                                                <h4 className="title"><a href="/blog-details">{value.title}</a></h4>
-                                                <div className="blog-btn">
-                                                    <a className="rn-btn text-white" href="/blog-details">Read More</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    ))}
-                                </Slider>
-                            </div>
-                        </div>    
-                    </div>    
-                </div>
-                {/* End Blog Area */}
+            
 
                 {/* Start Contact Us */}
                 <div className="rn-contact-us ptb--120 bg_color--5" id="contact">

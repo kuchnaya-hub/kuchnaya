@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import PageHelmet from "../component/common/Helmet";
 import Breadcrumb from "../elements/common/Breadcrumb";
 import CounterOne from "../elements/counters/CounterOne";
+import Testimonial from "../elements/Testimonial";
 import BrandTwo from "../elements/BrandTwo";
 import { FaFacebookF , FaLinkedinIn , FaTwitter } from "react-icons/fa";
 import ScrollToTop from 'react-scroll-up';
@@ -67,7 +68,7 @@ class About extends Component{
                         <div className="row">
                             <div className="col-lg-12">
                                 <div className="section-title text-center">
-                                    <h3 className="fontWeight500">Our Fun Facts</h3>
+                                    <h3 className="fontWeight500">Clients</h3>
                                 </div>
                             </div>
                         </div>
@@ -95,9 +96,88 @@ class About extends Component{
                 </div>
                 {/* End Finding Us Area  */}
 
-               
+                {/* Start Team Area  */}
+                <div className="rn-team-area bg_color--1 ptb--120">
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-lg-12">
+                                <div className="section-title service-style--3 text-center mb--25">
+                                    <h2 className="title">Skilled Team</h2>
+                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="row">
+                            
+                            {/* Start Single Team  */}
+                            <div className="col-lg-4 col-md-6 col-sm-6 col-12">
+                                <div className="team">
+                                    <div className="thumbnail">
+                                        <img className="w-100" src="/assets/images/team/team-01.jpg" alt="Blog Images"/>
+                                    </div>
+                                    <div className="content">
+                                        <h4 className="title">Jone Due</h4>
+                                        <p className="designation">Sr. Web Developer</p>
+                                    </div>
+                                    <ul className="social-icon" >
+                                        <li><a href="https://www.facebook.com/"><FaFacebookF /></a></li>
+                                        <li><a href="http://linkedin.com/"><FaLinkedinIn /></a></li>
+                                        <li><a href="https://twitter.com/"><FaTwitter /></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            {/* End Single Team  */}
 
- 
+                            {/* Start Single Team  */}
+                            <div className="col-lg-4 col-md-6 col-sm-6 col-12">
+                                <div className="team">
+                                    <div className="thumbnail">
+                                        <img className="w-100" src="/assets/images/team/team-02.jpg" alt="Blog Images"/>
+                                    </div>
+                                    <div className="content">
+                                        <h4 className="title">BM. Alamin</h4>
+                                        <p className="designation">Sr. Web Developer</p>
+                                    </div>
+                                    <ul className="social-icon" >
+                                        <li><a href="https://www.facebook.com/"><FaFacebookF /></a></li>
+                                        <li><a href="http://linkedin.com/"><FaLinkedinIn /></a></li>
+                                        <li><a href="https://twitter.com/"><FaTwitter /></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            {/* End Single Team  */}
+
+                            {/* Start Single Team  */}
+                            <div className="col-lg-4 col-md-6 col-sm-6 col-12">
+                                <div className="team">
+                                    <div className="thumbnail">
+                                        <img className="w-100" src="/assets/images/team/team-03.jpg" alt="Blog Images"/>
+                                    </div>
+                                    <div className="content">
+                                        <h4 className="title">Jone Due</h4>
+                                        <p className="designation">Sr. Web Developer</p>
+                                    </div>
+                                    <ul className="social-icon" >
+                                        <li><a href="https://www.facebook.com/"><FaFacebookF /></a></li>
+                                        <li><a href="http://linkedin.com/"><FaLinkedinIn /></a></li>
+                                        <li><a href="https://twitter.com/"><FaTwitter /></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            {/* End Single Team  */}
+
+                        </div>
+                    </div>
+                </div>
+                {/* End Team Area  */}
+
+                {/* Start Testimonial Area */}
+                <div className="rn-testimonial-area bg_color--5 ptb--120">
+                    <div className="container">
+                        <Testimonial />
+                    </div>
+                </div>
+                {/* End Testimonial Area */}
 
                 {/* Start Brand Area */}
                 <div className="rn-brand-area brand-separation bg_color--5 ptb--120">

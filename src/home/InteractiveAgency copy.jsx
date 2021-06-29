@@ -7,6 +7,7 @@ import { FiCast , FiLayers , FiUsers , FiMonitor ,FiChevronUp } from "react-icon
 import Header from "../component/header/Header";
 import FooterTwo from "../component/footer/FooterTwo";
 
+{/* import VideoModal from "../blocks/VideoModal"; */}
 import BrandTwo from "../elements/BrandTwo";
 
 
@@ -176,6 +177,20 @@ const InteractiveAgency = () => {
             </div>
             {/* End Service Area */}
 
+            {/* Start Video Area  */}
+            {/*  <div className="rn-section pb--120 bg_color--1">
+                <div className="container">
+                        <div className="row sercice-details-content align-items-center">
+                        <div className="col-lg-12">
+                            <div className="thumb position-relative">
+                                <img className="w-100" src="/assets/images/bg/bg-image-26.jpg" alt="Service Images"/>
+                                <VideoModal />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>  */}
+            {/* End Video Area  */}
 
             {/* Start Brand Area  */}
             <div className="rn-brand-area pb--120 bg_color--1">

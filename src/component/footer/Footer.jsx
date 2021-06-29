@@ -36,7 +36,7 @@ class Footer extends Component{
 
                                                 
                                                     <li><a href="/about">About Us</a></li>
-                                                    <li><a href="/career">Career</a></li>
+                                                    
                                                     <li><a href="/contact">Contact</a></li>
                                                 </ul>
                                             </div>

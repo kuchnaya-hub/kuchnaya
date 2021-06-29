@@ -111,8 +111,8 @@ class Contact extends Component{
                         defaultZoom={this.props.zoom}
                         >
                         <AnyReactComponent
-                            lat={59.955413}
-                            lng={30.337844}
+                            lat={19.22524791458301}
+                            lng={72.97925998465733}
                             text="My Marker"
                         />
                         </GoogleMapReact>
