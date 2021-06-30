@@ -28,7 +28,11 @@ class ContactTwo extends Component{
                             </div>
 
                             <div className="form-wrapper">
-                            <form name="contact" method="POST" data-netlify="true" onSubmit="submit">
+                            <iframe src="https://kuchnayaforms.netlify.app" title="W3Schools Free Online Web Tutorials" marginwidth="0" marginheight="0" width="100%" scrolling="no" height="400" name="form" border="0" frameborder="0">
+</iframe>
+
+
+                           {/* <form name="contact" method="POST" data-netlify="true" onSubmit="submit">
                             <input type="hidden" name="form-name" value="contact" />
                                     <label htmlFor="item01">
                                         <input
@@ -74,9 +78,15 @@ class ContactTwo extends Component{
                                     </label>
                                     <button className="rn-button-style--2 btn-solid" type="submit" value="submit" name="submit" id="mc-embedded-subscribe">Submit</button>
                                 </form>
+
+                                */} 
                             </div>
                         </div>
-                        <div className="col-lg-6 order-1 order-lg-2">
+
+
+                        
+
+            <div className="col-lg-6 order-1 order-lg-2">
                             <div className="thumbnail mb_md--30 mb_sm--30">
                                 <img src="/assets/images/about/contact_img_800x845.jpg" alt="kuchnaya"/>
                             </div>
