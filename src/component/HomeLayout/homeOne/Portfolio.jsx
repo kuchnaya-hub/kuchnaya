@@ -36,13 +36,13 @@ const PortfolioList = [
         image: 'image-5',
         category: 'Development',
         title: ' Getting tickets to the big show',
-        link: 'https://in.godaddy.com/'
+        link: '#'
     },
     {
         image: 'image-6',
         category: 'Development',
         title: ' Getting tickets to the big show',
-        link: 'https://in.godaddy.com/'
+        link: '#'
     }
 ]
 
