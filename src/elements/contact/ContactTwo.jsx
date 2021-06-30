@@ -18,10 +18,11 @@ class ContactTwo extends Component{
                         <div className="col-lg-6 order-2 order-lg-1">
                             <div className="section-title text-left mb--50">
                                 <h2 className="title">Contact Us.</h2>
-                                <p className="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto cupiditate aperiam neque.</p>
+                                <p className="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto cupiditate aperiam nequee.</p>
                             </div>
                             <div className="form-wrapper">
-                            <form name="contact" method="POST" data-netlify="true">
+                            <form name="contact" method="POST" data-netlify="true" onSubmit="submit">
+                                <input type="hidden" name="form-name" value="contact" />
                                     <label htmlFor="item01">
                                         <input
                                             type="text"
