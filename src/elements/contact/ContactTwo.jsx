@@ -21,7 +21,7 @@ class ContactTwo extends Component{
                                 <p className="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto cupiditate aperiam neq.</p>
                             </div>
 
-                            <form name="contact2" method="POST" data-netlify="true">
+                            <form name="contact2" netlify netlify-honeypot="bot-field" method="POST" data-netlify="true" onSubmit="submit">
                             <input type="hidden" name="form-name" value="contact2" />
   <p>
     <label>Your Name: <input type="text" name="name" /></label>   
