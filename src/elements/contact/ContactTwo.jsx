@@ -21,7 +21,7 @@ class ContactTwo extends Component{
                                 <p className="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto cupiditate aperiam neque.</p>
                             </div>
                             <div className="form-wrapper">
-                                <form>
+                            <form name="contact" method="POST" data-netlify="true">
                                     <label htmlFor="item01">
                                         <input
                                             type="text"

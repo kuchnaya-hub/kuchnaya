@@ -12,7 +12,7 @@ const ServiceList = [
     },
     {
         icon: <FiGlobe />,
-        title: 'Website Development',
+        title: 'Web Development',
         description: 'I throw myself down among the tall grass by the stream as I lie close to the earth.'
     },
     {
@@ -47,7 +47,7 @@ class ServiceTwo extends Component{
                         <div className="row service-one-wrapper">
                             {ServiceList.map( (val , i) => (
                                 <div className="col-lg-6 col-md-6 col-sm-6 col-12" key={i}>
-                                    <a href="/service-details">
+                                   {/* <a href="/service-details"> */} 
                                         <div className="service service__style--2">
                                             <div className="icon">
                                                 {val.icon}
@@ -57,7 +57,7 @@ class ServiceTwo extends Component{
                                                 <p>{val.description}</p>
                                             </div>
                                         </div>
-                                    </a>
+                                    {/* </a> */} 
                                 </div>
                             ))}
                         </div>

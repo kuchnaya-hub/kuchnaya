@@ -8,7 +8,7 @@ import Header from "../component/header/Header";
 import ServiceList from "../elements/service/ServiceList";
 import CounterOne from "../elements/counters/CounterOne";
 // import Testimonial from "../elements/Testimonial";
-import Team from "../elements/Team";
+// import Team from "../elements/Team";
 // import BlogContent from "../elements/blog/BlogContent";
 import BrandTwo from "../elements/BrandTwo";
 import FooterTwo from "../component/footer/FooterTwo";
@@ -135,7 +135,7 @@ class CreativeAgency extends Component{
                 {/* End CounterUp Area */}
 
                 {/* Start Team Area  */}
-                <div className="rn-team-area ptb--120 bg_color--5">
+                {/*  <div className="rn-team-area ptb--120 bg_color--5">
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-6">
@@ -149,7 +149,7 @@ class CreativeAgency extends Component{
                             <Team column="col-lg-4 col-md-6 col-sm-6 col-12" />
                         </div>
                     </div>
-                </div>
+                </div> */}
                 {/* End Team Area  */}
 
                 {/* Start Testimonial Area */}

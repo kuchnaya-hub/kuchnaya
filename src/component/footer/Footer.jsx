@@ -64,7 +64,7 @@ class Footer extends Component{
 
                                         <div className="col-lg-12">
                                             <div className="copyright-text">
-                                                <p>Copyright © 2021 Kuchnaya Technolabs PVT LTD. All Rights Reserved.</p>
+                                                <p>Copyright © 2021 Kuchnaya Technolabs Private Limited. All Rights Reserved.</p>
                                             </div>
                                         </div>
                                     </div>

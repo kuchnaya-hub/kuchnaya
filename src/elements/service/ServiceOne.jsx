@@ -9,7 +9,7 @@ const ServiceList = [
     },
     {
         icon: '02',
-        title: 'Website Development',
+        title: 'Web Development',
         description: 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered.'
     },
     {
