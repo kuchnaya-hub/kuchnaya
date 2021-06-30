@@ -18,11 +18,33 @@ class ContactTwo extends Component{
                         <div className="col-lg-6 order-2 order-lg-1">
                             <div className="section-title text-left mb--50">
                                 <h2 className="title">Contact Us.</h2>
-                                <p className="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto cupiditate aperiam nequee.</p>
+                                <p className="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto cupiditate aperiam neq.</p>
                             </div>
+
+                            <form name="contact2" method="POST" data-netlify="true">
+                            <input type="hidden" name="form-name" value="contact2" />
+  <p>
+    <label>Your Name: <input type="text" name="name" /></label>   
+  </p>
+  <p>
+    <label>Your Email: <input type="email" name="email" /></label>
+  </p>
+  <p>
+    <label>Your Role: <select name="role[]" multiple>
+      <option value="leader">Leader</option>
+      <option value="follower">Follower</option>
+    </select></label>
+  </p>
+  <p>
+    <label>Message: <textarea name="message"></textarea></label>
+  </p>
+  <p>
+    <button type="submit">Send</button>
+  </p>
+</form>
                             <div className="form-wrapper">
                             <form name="contact" method="POST" data-netlify="true" onSubmit="submit">
-                                <input type="hidden" name="form-name" value="contact" />
+                               
                                     <label htmlFor="item01">
                                         <input
                                             type="text"
