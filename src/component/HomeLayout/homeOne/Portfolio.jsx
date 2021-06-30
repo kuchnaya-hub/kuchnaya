@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
 import { portfolioSlick2 } from "../../../page-demo/script";
-import {Link} from "react-router-dom";
+// import {Link} from "react-router-dom";
 
 
 const PortfolioList = [
@@ -83,7 +83,10 @@ class Portfolio extends Component{
                                     </div>
                                    {/* <Link className="link-overlay" target="_blank" rel="noopener noreferrer" to={value.link}  ></Link> */}
 
-                                    <Link to={{ pathname: value.link }} target="_blank" /> 
+                                    {/* <Link to={{ pathname: value.link }} target="_blank" /> */}
+                                    <a className="link-overlay"  target="_blank" rel="noopener noreferrer"   href={value.link} >  </a>
+                                    
+                                     {/* <a className="link-overlay" rel="noopener noreferrer"   href={value.link} target="_blank" />  */}
                                 </div>
                             ))}
                         </Slider>
