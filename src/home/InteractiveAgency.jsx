@@ -3,7 +3,7 @@ import { ProgressBar } from 'react-bootstrap';
 import Helmet from "../component/common/Helmet";
 
 import ScrollToTop from 'react-scroll-up';
-import { FiCast , FiLayers , FiUsers , FiMonitor ,FiChevronUp } from "react-icons/fi";
+import { FiCast , FiPackage, FiTablet, FiGlobe, FiUsers , FiMonitor ,FiChevronUp } from "react-icons/fi";
 import Header from "../component/header/Header";
 import FooterTwo from "../component/footer/FooterTwo";
 
@@ -27,23 +27,23 @@ const SlideList = [
 
 const ServiceList = [
     {
-        icon: <FiCast />,
-        title: 'Business Stratagy',
+        icon: <FiPackage />,
+        title: 'Product Development',
         description: 'I throw myself down among the tall grass by the stream as I lie close to the earth.'
     },
     {
-        icon: <FiLayers />,
+        icon: <FiGlobe />,
         title: 'Web Development',
         description: 'I throw myself down among the tall grass by the stream as I lie close to the earth.'
     },
     {
         icon: <FiUsers />,
-        title: 'Marketing & Reporting',
+        title: 'Business Augmentation',
         description: 'I throw myself down among the tall grass by the stream as I lie close to the earth.'
     },
     {
-        icon: <FiMonitor />,
-        title: 'Mobile App Development',
+        icon: <FiTablet />,
+        title: 'App Development',
         description: 'I throw myself down among the tall grass by the stream as I lie close to the earth.'
     },
     {
@@ -158,7 +158,8 @@ const InteractiveAgency = () => {
                     <div className="row creative-service">
                         {ServiceList.map( (val , i) => (
                             <div className="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12" key={i}>
-                                <a className="text-center" href="/service-details">
+                                <div className="text-center" >
+                                    {/*<a className="text-center" href="/service-details"> */}
                                     <div className="service service__style--2">
                                         <div className="icon">
                                             {val.icon}
@@ -167,8 +168,9 @@ const InteractiveAgency = () => {
                                             <h3 className="title">{val.title}</h3>
                                             <p>{val.description}</p>
                                         </div>
+                                        {/* </a> */}
                                     </div>
-                                </a>
+                                </div>
                             </div>
                         ))}
                     </div>

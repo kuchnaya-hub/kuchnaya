@@ -39,7 +39,7 @@ class ServiceTwo extends Component{
                             <h2 className="title">{title}</h2>
                             <p>{description}</p>
                             <div className="service-btn">
-                                <a className="btn-transparent rn-btn-dark" href="/service"><span className="text">Request Custom Service</span></a>
+                                <a className="btn-transparent rn-btn-dark" href="/interactive-agency"><span className="text">Request Custom Service</span></a>
                             </div>
                         </div>
                     </div>
