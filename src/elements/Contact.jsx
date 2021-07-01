@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import PageHelmet from "../component/common/Helmet";
-import { FiHeadphones , FiMail , FiMapPin } from "react-icons/fi";
+import {  FiMail , FiMapPin, FiLinkedin } from "react-icons/fi";
 // import GoogleMapReact from 'google-map-react';
 import ContactTwo from "../elements/contact/ContactTwo";
 import BrandTwo from "../elements/BrandTwo";
@@ -53,11 +53,11 @@ class Contact extends Component{
                             <div className="col-lg-4 col-md-6 col-sm-6 col-12">
                                 <div className="rn-address">
                                     <div className="icon">
-                                        <FiHeadphones />
+                                    <FiLinkedin /> 
                                     </div>
                                     <div className="inner">
-                                        <h4 className="title">Contact With Phone Number</h4>
-                                        <p><a href="tel:+057 254 365 456">+91 86919 34511</a></p>
+                                        <h4 className="title">Contact With Us</h4>
+                                        <p><FiLinkedin /> <a href="https://in.linkedin.com/" rel="noopener noreferrer"  target="_blank">Kuchnaya</a></p>
                                         <br></br><br></br>
                                     </div>
                                 </div>
