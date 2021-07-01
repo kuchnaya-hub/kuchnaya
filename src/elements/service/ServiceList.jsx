@@ -19,7 +19,7 @@ const ServiceList = [
     },
     { 
         icon: <FiTablet />,
-        title: 'Mobile App Development',
+        title: 'App Development',
         description: 'I throw myself down among the tall grass by the stream as I lie close to the earth.'
     },
     {
@@ -29,7 +29,7 @@ const ServiceList = [
     },
     { 
         icon: <FiMonitor />,
-        title: 'Mobile App Development',
+        title: 'App Development',
         description: 'I throw myself down among the tall grass by the stream as I lie close to the earth.'
     }
 ]
@@ -45,7 +45,8 @@ class ServiceThree extends Component{
                 <div className="row">
                     {ServiceContent.map( (val , i) => (
                         <div className={`${column}`} key={i}>
-                            <a href="/service-details">
+                            {/* <a class="text-center" href="/service-details"> */}
+                            <div class="text-center" >
                                 <div className="service service__style--2">
                                     <div className="icon">
                                         {val.icon}
@@ -55,7 +56,8 @@ class ServiceThree extends Component{
                                         <p>{val.description}</p>
                                     </div>
                                 </div>
-                            </a>
+                                </div>
+                           {/*  </a>  */}
                         </div>
                     ))}
                 </div>
