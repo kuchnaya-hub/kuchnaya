@@ -5,22 +5,22 @@ const ServiceList = [
     {
         icon: <FiPackage />,
         title: 'Product Development',
-        description: 'I throw myself down among the tall grass by the stream as I lie close to the earth.'
+        description: 'We do the complete process of delivering a new product or improving an existing one for customers.'
     },
     {
         icon: <FiGlobe />,
         title: 'Web Development',
-        description: 'I throw myself down among the tall grass by the stream as I lie close to the earth.'
+        description: "Building websites and web apps, it's the work that happens behind the scenes to make a website look great."
     },
     {
         icon: <FiUsers />,
         title: 'Business Augmentation',
-        description: 'I throw myself down among the tall grass by the stream as I lie close to the earth.'
+        description: 'Staff augmentation allows a company to add staff based on the additional skills required.'
     },
     { 
         icon: <FiTablet />,
         title: 'App Development',
-        description: 'I throw myself down among the tall grass by the stream as I lie close to the earth.'
+        description: 'We expertise in in the processes of writing software for small, wireless computing devices, such as smartphones.'
     },
     {
         icon: <FiUsers />,
@@ -30,7 +30,7 @@ const ServiceList = [
     { 
         icon: <FiMonitor />,
         title: 'App Development',
-        description: 'I throw myself down among the tall grass by the stream as I lie close to the earth.'
+        description: 'We expertise in in the processes of writing software for small, wireless computing devices, such as smartphones.'
     }
 ]
 

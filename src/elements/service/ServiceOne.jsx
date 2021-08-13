@@ -5,17 +5,17 @@ const ServiceList = [
     {
         icon: '01',
         title: 'Product Development',
-        description: 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered.'
+        description: 'We do the complete process of delivering a new product or improving an existing one for customers.'
     },
     {
         icon: '02',
         title: 'Web Development',
-        description: 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered.'
+        description: "Building websites and web apps, it's the work that happens behind the scenes to make a website look great."
     },
     {
         icon: '03',
         title: 'APP Development',
-        description: 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered.'
+        description: 'We expertise in in the processes of writing software for small, wireless computing devices, such as smartphones.'
     },
 ]
 
