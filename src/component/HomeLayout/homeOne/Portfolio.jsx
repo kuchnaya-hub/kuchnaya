@@ -15,8 +15,8 @@ const PortfolioList = [
     {
         image: 'image-2',
         category: 'Development',
-        title: ' WalkMyMind is an app offered through employers and insurers.',
-        link: 'https://walkmymind.com/'
+        title: ' Aurionpro Payment Solutions Pvt Ltd. (APSL) is founded by Aurionpro Solutions Ltd',
+        link: 'https://auropay.net/'
         
     },
     {
@@ -29,20 +29,20 @@ const PortfolioList = [
     {
         image: 'image-4',
         category: 'Development',
-        title: ' Social and News App',
-        link: 'https://play.google.com/store/apps/details?id=com.live.hootout&hl=en_IN&gl=US'
+        title: ' Mobile Wallet Freedom for eCommerce',
+        link: 'https://www.vrayinc.com/'
     },
     {
         image: 'image-5',
         category: 'Development',
-        title: ' Getting tickets to the big show',
-        link: '#'
+        title: ' Adventure Provider',
+        link: 'https://dev.gotrekket.com/'
     },
     {
         image: 'image-6',
         category: 'Development',
-        title: ' Getting tickets to the big show',
-        link: '#'
+        title: ' Adventure Provider',
+        link: 'https://dev.gotrekket.com/'
     }
 ]
 
