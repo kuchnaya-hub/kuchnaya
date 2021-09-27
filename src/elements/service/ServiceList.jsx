@@ -6,7 +6,7 @@ const ServiceList = [
     {
         icon: <GrAnnounce />,
         title: 'Behtar Ads',
-        description: 'Behtar Ads - Video Ads Maker for Reseller helps you to create video ads of your reselling product'
+        description: 'Behtar Ads - Video Ads Maker for Reseller helps you to create video ads of your reselling product.'
     },
     {
         icon: <GrAnnounce />,
