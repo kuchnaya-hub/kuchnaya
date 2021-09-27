@@ -3,7 +3,7 @@ import React, { Component } from "react";
 class About extends Component{
     render(){
         let title = 'About',
-        description = 'We follow professional and international standards to provide Best Quality work. We provide IT solutions to all small and medium businesses all over The World and make long term relations with our Clients.';
+        description = 'We follow professional and international standards to provide best quality work. We provide IT solutions to all small and medium businesses all over the world and make long term relations with our clients.';
         return(
             <React.Fragment>
                 <div className="about-wrapper">
