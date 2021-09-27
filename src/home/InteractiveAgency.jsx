@@ -3,7 +3,7 @@ import { ProgressBar } from 'react-bootstrap';
 import Helmet from "../component/common/Helmet";
 
 import ScrollToTop from 'react-scroll-up';
-import { FiCast , FiPackage, FiTablet, FiGlobe, FiUsers , FiMonitor ,FiChevronUp } from "react-icons/fi";
+import { FiPackage, FiTablet, FiGlobe, FiUsers , FiMonitor ,FiChevronUp } from "react-icons/fi";
 import Header from "../component/header/Header";
 import FooterTwo from "../component/footer/FooterTwo";
 

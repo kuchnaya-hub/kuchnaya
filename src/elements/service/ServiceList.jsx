@@ -1,5 +1,5 @@
 import React ,{ Component }from "react";
-import { FiPackage , FiGlobe , FiUsers , FiTablet, FiMonitor } from "react-icons/fi";
+//import { FiPackage , FiGlobe , FiUsers , FiTablet, FiMonitor } from "react-icons/fi";
 import { GrAnnounce, GrDown } from "react-icons/gr";
 
 const ServiceList = [
