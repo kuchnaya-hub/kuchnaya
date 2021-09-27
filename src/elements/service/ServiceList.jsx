@@ -16,7 +16,7 @@ const ServiceList = [
     {
         icon: <GrDown />,
         title: 'Vidyback',
-        description: 'Vidyback is a platform where sellers can make video ads of their products with a click of a button- Coming Soon .'
+        description: 'Vidyback is a platform where sellers can make video ads of their products with a click of a button- Coming Soon'
     }
 ]
 
