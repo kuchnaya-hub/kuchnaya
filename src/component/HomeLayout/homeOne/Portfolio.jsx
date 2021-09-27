@@ -8,40 +8,40 @@ const PortfolioList = [
 
     {
         image: 'image-1',
-        category: 'App Development',
+        category: 'Mobile App Development',
         title: ' Social and News App',
         link: 'https://play.google.com/store/apps/details?id=com.live.hootout&hl=en_IN&gl=US'
     },
     {
         image: 'image-2',
-        category: 'Development',
+        category: 'UI/UX Design',
         title: ' Adventure Provider',
         link: 'https://dev.gotrekket.com/'
         
     },
     {
         image: 'image-3',
-        category: 'Development',
-        title: ' Auropay Solve your Payment Problems',
+        category: 'UI/UX Design',
+        title: 'Payment Solutions',
         link: 'https://auropay.net/'
         
     },
     {
         image: 'image-4',
-        category: 'Development',
-        title: ' Mobile Wallet Freedom for eCommerce',
+        category: 'Mobile App Development',
+        title: 'Video Ads Maker for Reseller',
         link: 'https://play.google.com/store/apps/details?id=com.kuchnaya.behtarads&hl=en_IN&gl=US'
     },
     {
         image: 'image-5',
-        category: 'Development',
-        title: ' Mobile Wallet Freedom for eCommerce',
+        category: 'UI/UX Design',
+        title: ' Mobile Wallet',
         link: 'https://www.vrayinc.com/'
 
     },
     {
         image: 'image-6',
-        category: 'App Development',
+        category: 'UI Design',
         title: ' Payment Forms',
         link: 'https://www.figma.com/proto/HKRlak3mFo8CWGWSR4o61D/Untitled?embed_host=share&kind=&node-id=3%3A937&page-id=0%3A1&scaling=min-zoom&starting-point-node-id=3%3A1383&viewport=241%2C48%2C0.09'
     }
