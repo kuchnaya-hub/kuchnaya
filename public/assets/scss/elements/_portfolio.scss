@@ -59,7 +59,7 @@
         border-radius: 5px;
         background-color: #0a0a0a;
         background-image: url(/assets/images/portfolio/portfolio-1.jpg);
-        transform: scale(1.13) translateZ(0);
+        transform: scale(1.02) translateZ(0);
         backface-visibility: hidden;
         transition: transform .28s ease;
         z-index: 4;
@@ -79,6 +79,15 @@
             background-image: url(/assets/images/portfolio/portfolio-4.jpg);
         }
 
+        &.image-5 {
+            background-image: url(/assets/images/portfolio/portfolio-5.jpg);
+        }
+        &.image-6 {
+            background-image: url(/assets/images/portfolio/portfolio-6.jpg);
+        }
+
+
+
         &::after{
             background-color: rgba(45,45,45,.35);
             position: absolute;
@@ -90,7 +99,7 @@
             z-index: 1;
             display: block;
             border-radius: 5px;
-            background-color: rgba(25,25,25,.37);
+            background-color: rgba(25,25,25,0.20);
             @extend %transition;
         }
     }

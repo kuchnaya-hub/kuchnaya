@@ -5,44 +5,45 @@ import { portfolioSlick2 } from "../../../page-demo/script";
 
 
 const PortfolioList = [
+
     {
         image: 'image-1',
+        category: 'App Development',
+        title: ' Social and News App',
+        link: 'https://dev.gotrekket.com/'
+    },
+    {
+        image: 'image-2',
         category: 'Development',
         title: ' Adventure Provider',
         link: 'https://dev.gotrekket.com/'
         
     },
     {
-        image: 'image-2',
-        category: 'Development',
-        title: ' WalkMyMind is an app offered through employers and insurers.',
-        link: 'https://walkmymind.com/'
-        
-    },
-    {
         image: 'image-3',
         category: 'Development',
-        title: ' Video Ad Maker for Resellers',
-        link: 'https://play.google.com/store/apps/details?id=com.kuchnaya.behtarads&hl=en_IN&gl=US'
+        title: ' Auropay Solve your Payment Problems',
+        link: 'https://auropay.net/'
         
     },
     {
         image: 'image-4',
         category: 'Development',
-        title: ' Social and News App',
+        title: ' Video Ad Maker for Resellers',
         link: 'https://play.google.com/store/apps/details?id=com.live.hootout&hl=en_IN&gl=US'
+        
     },
     {
         image: 'image-5',
         category: 'Development',
-        title: ' Getting tickets to the big show',
-        link: '#'
+        title: ' Mobile Wallet Freedom for eCommerce',
+        link: 'https://www.vrayinc.com/'
     },
     {
         image: 'image-6',
-        category: 'Development',
-        title: ' Getting tickets to the big show',
-        link: '#'
+        category: 'App Development',
+        title: ' Payment Forms',
+        link: 'https://www.figma.com/proto/qiJUllXWS8nSCjnC6uItEk/Merchant--Mobile?node-id=130%3A747&scaling=scale-down&page-id=0%3A1&starting-point-node-id=85%3A1388'
     }
 ]
 
