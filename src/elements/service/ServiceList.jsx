@@ -1,21 +1,22 @@
 import React ,{ Component }from "react";
 import { FiPackage , FiGlobe , FiUsers , FiTablet, FiMonitor } from "react-icons/fi";
+import { GrAnnounce, GrDown } from "react-icons/gr";
 
 const ServiceList = [
     {
-        icon: <FiPackage />,
+        icon: <GrAnnounce />,
         title: 'Behtar Ads',
-        description: 'We do the complete process of delivering a new product or improving an existing one for customers.'
+        description: 'Behtar Ads - Video Ads Maker for Reseller helps you to create video ads of your reselling product'
     },
     {
-        icon: <FiGlobe />,
+        icon: <GrAnnounce />,
         title: 'HootOut',
-        description: "Building websites and web apps, it's the work that happens behind the scenes to make a website look great."
+        description: "HootOut is a platform to share your stories with friends. Choose any template and create your story"
     },
     {
-        icon: <FiUsers />,
+        icon: <GrDown />,
         title: 'Vidyback',
-        description: 'Staff augmentation allows a company to add staff based on the additional skills required - Coming Soon'
+        description: 'Vidyback is a platform where sellers can make video ads of their products with a click of a button- Coming Soon .'
     }
 ]
 
@@ -34,7 +35,7 @@ class ServiceThree extends Component{
                             <div class="text-center" >
                                 <div className="service service__style--2">
                                     <div className="icon">
-                                        {val.icon}
+                                    <span style={{ color: "red" }} >{val.icon}</span>
                                     </div>
                                     <div className="content">
                                         <h3 className="title">{val.title}</h3>

@@ -50,7 +50,7 @@ const PortfolioList = [
 class Portfolio extends Component{
     render(){
         let title = 'Our Works',
-        description = 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.';
+        description = 'We always try to build brands of our clients and help to improve web presence through website & social sites.';
         return(
             <React.Fragment>
                 <div className="portfolio-wrapper">

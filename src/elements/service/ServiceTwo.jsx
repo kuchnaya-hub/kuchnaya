@@ -30,7 +30,7 @@ const ServiceList = [
 class ServiceTwo extends Component{
     render(){
         let title = 'Services',
-        description = 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.';
+        description = 'We provide Best Services as per client s requirement. We work on latest technologies';
         return(
             <React.Fragment>
                 <div className="row">
