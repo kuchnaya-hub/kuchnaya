@@ -10,7 +10,7 @@ const PortfolioList = [
         image: 'image-1',
         category: 'App Development',
         title: ' Social and News App',
-        link: 'https://dev.gotrekket.com/'
+        link: 'https://play.google.com/store/apps/details?id=com.live.hootout&hl=en_IN&gl=US'
     },
     {
         image: 'image-2',
@@ -30,14 +30,14 @@ const PortfolioList = [
         image: 'image-4',
         category: 'Development',
         title: ' Mobile Wallet Freedom for eCommerce',
-        link: 'https://www.vrayinc.com/'
+        link: 'https://play.google.com/store/apps/details?id=com.kuchnaya.behtarads&hl=en_IN&gl=US'
     },
     {
         image: 'image-5',
         category: 'Development',
         title: ' Mobile Wallet Freedom for eCommerce',
         link: 'https://www.vrayinc.com/'
-        
+
     },
     {
         image: 'image-6',
