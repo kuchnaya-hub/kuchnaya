@@ -37,18 +37,13 @@ const PortfolioList = [
         category: 'Development',
         title: ' Mobile Wallet Freedom for eCommerce',
         link: 'https://www.vrayinc.com/'
+        
     },
     {
         image: 'image-6',
         category: 'App Development',
         title: ' Payment Forms',
         link: 'https://www.figma.com/proto/qiJUllXWS8nSCjnC6uItEk/Merchant--Mobile?node-id=130%3A747&scaling=scale-down&page-id=0%3A1&starting-point-node-id=85%3A1388'
-    },
-    {
-        image: 'image-6',
-        category: 'Development',
-        title: ' Adventure Provider',
-        link: 'https://dev.gotrekket.com/'
     }
 ]
 
