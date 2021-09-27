@@ -35,7 +35,7 @@ const PortfolioList = [
     {
         image: 'image-5',
         category: 'Development',
-        title: ' Mobile Wallet Freedom for eCommerce',
+        title: ' Mobile Wallet Freedom for eCommerce.',
         link: 'https://www.vrayinc.com/'
     },
     {
