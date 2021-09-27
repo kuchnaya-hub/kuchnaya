@@ -47,7 +47,7 @@ const ServiceList = [
         description: 'We expertise in in the processes of writing software for small, wireless computing devices, such as smartphones .'
     },
     {
-        icon: <FiCast />,
+        icon: <FiGlobe />,
         title: 'Website Development',
         description: "Building websites and web apps, it's the work that happens behind the scenes to make a website look great."
     },
