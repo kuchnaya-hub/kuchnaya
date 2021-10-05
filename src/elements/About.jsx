@@ -13,7 +13,7 @@ import Footer from "../component/footer/Footer";
 class About extends Component{
     render(){
         let title = 'About',
-        description = 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which dont look even slightly believable. If you are going to use a passage of Lorem Ipsum Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which dont look even slightly believable. If you are going.';
+        description = 'Kuchnaya has assembled a world class engineering, strategic and design team with over 50 years of collective experience. We believe in product development be it inhouse or for clients. We are driven by ideas and its execution.';
         return(
             <React.Fragment>
                 <PageHelmet pageTitle='About' />
@@ -42,14 +42,14 @@ class About extends Component{
                                         <div className="row mt--30">
                                             <div className="col-lg-6 col-md-12 col-sm-12 col-12">
                                                 <div className="about-us-list">
-                                                    <h3 className="title">What We Do</h3>
-                                                    <p>There are many vtions of passages of Lorem Ipsum available, but the majority have suffered.</p>
+                                                <h3 className="title">Who We Are </h3>
+                                                <p>We are self-driven entrepreneurs who enjoy product development and execution.</p>
                                                 </div>
                                             </div>
                                             <div className="col-lg-6 col-md-12 col-sm-12 col-12">
                                                 <div className="about-us-list">
-                                                    <h3 className="title">Who We Are</h3>
-                                                    <p>There are many vtions of passages of Lorem Ipsum available, but the majority have suffered.</p>
+                                                <h3 className="title">What We Do</h3>
+                                                <p>We are a product development company with a separate project execution team for the client.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -82,8 +82,8 @@ class About extends Component{
                         <div className="content-wrapper">
                             <div className="content">
                                 <h4 className="theme-gradient">Find Your Work Now</h4>
-                                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that.</p>
-                                <a className="rn-btn btn-white" href="/about">Get Started</a>
+                                <p>Connect with us for any kind of product development or services. Hope you connect with us and discuss your next big idea and plan its execution with us.</p>
+                                <a className="rn-btn btn-white" href="/contact">Get Started</a>
                             </div>
                         </div>
                         <div className="thumbnail">

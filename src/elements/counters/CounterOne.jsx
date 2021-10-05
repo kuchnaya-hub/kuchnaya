@@ -15,16 +15,16 @@ class CounterOne extends Component{
     render(){
         let Data = [
             {
-                countNum : 100,
+                countNum : 20,
                 countTitle: 'Satisfied Clients',
             },
             {
-                countNum : 300,
+                countNum : 100,
                 countTitle: 'Successful Projects',
             },
             {
-                countNum : 100,
-                countTitle: 'Positive Reviews',
+                countNum : 100000,
+                countTitle: 'Lines of Code',
             },
         ];
 

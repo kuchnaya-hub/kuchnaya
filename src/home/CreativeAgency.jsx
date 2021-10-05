@@ -24,7 +24,7 @@ const image1 =
         textPosition: 'text-center',
         category: '',
         title: 'Creative ',
-        description: 'There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration.',
+        description: 'We enjoy product development company with a world class engineering, strategic and design team with over 50 years of collective experience.',
         buttonText: 'Contact Us',
         buttonLink: '/contact'
     }

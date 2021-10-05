@@ -3,7 +3,7 @@ import React, { Component } from "react";
 class About extends Component{
     render(){
         let title = 'About',
-        description = 'We follow professional and international standards to provide best quality work. We provide IT solutions to all small and medium businesses all over the world and make long term relations with our clients.';
+        description = 'Kuchnaya has assembled a world class engineering, strategic and design team with over 50 years of collective experience. We believe in product development be it inhouse or for clients. We are driven by ideas and its execution.';
         return(
             <React.Fragment>
                 <div className="about-wrapper">
@@ -26,13 +26,13 @@ class About extends Component{
                                         <div className="col-lg-6 col-md-12 col-sm-12 col-12">
                                             <div className="about-us-list">
                                                 <h3 className="title">Who We Are </h3>
-                                                <p>There are many vtions of passages of available, but the majority have suffered.</p>
+                                                <p>We are self-driven entrepreneurs who enjoy product development and execution.</p>
                                             </div>
                                         </div>
                                         <div className="col-lg-6 col-md-12 col-sm-12 col-12">
                                             <div className="about-us-list">
                                                 <h3 className="title">What We Do</h3>
-                                                <p>There are many vtions of passages of Lorem Ipsum available, but the majority have suffered.</p>
+                                                <p>We are a product development company with a separate project execution team for the client.</p>
                                             </div>
                                         </div>
                                     </div>

@@ -29,7 +29,7 @@ const ServiceList = [
     {
         icon: <FiPackage />,
         title: 'Product Development',
-        description: 'We do the complete process of delivering a new product or improving an existing one for customers.'
+        description: 'We do the complete process of delivering a new product or improving an existing one for customers'
     },
     {
         icon: <FiGlobe />,
@@ -96,7 +96,7 @@ const InteractiveAgency = () => {
                                 <div className="about-inner inner">
                                     <div className="section-title">
                                         <h2 className="title">What do we do?</h2>
-                                        <p className="description">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which dont look even slightly believable.</p>
+                                        <p className="description">We are a product development company with a separate project execution team for the client. We are full stacked developers and architects and use tech stack that is relevant for the business.</p>
                                     </div>
                                     <div className="row mt--30">
                                         <div className="col-lg-12 col-md-12 col-sm-12 col-12">
@@ -105,26 +105,26 @@ const InteractiveAgency = () => {
                                                 <div className="rn-progress-bar progress-bar--3">
                                                     <div className="single-progress custom-color--1">
                                                         <h6 className="title">Designing</h6>
-                                                        <ProgressBar now={81} />
-                                                        <span className="label">81%</span>
+                                                        <ProgressBar now={90} />
+                                                        <span className="label">90%</span>
                                                     </div>
 
                                                     <div className="single-progress custom-color--2">
                                                         <h6 className="title">Managment</h6>
-                                                        <ProgressBar now={72} />
-                                                        <span className="label">72%</span>
+                                                        <ProgressBar now={80} />
+                                                        <span className="label">80%</span>
                                                     </div>
 
                                                     <div className="single-progress custom-color--3">
                                                         <h6 className="title">Marketing</h6>
-                                                        <ProgressBar now={89} />
-                                                        <span className="label">89%</span>
+                                                        <ProgressBar now={85} />
+                                                        <span className="label">85%</span>
                                                     </div>
 
                                                     <div className="single-progress custom-color--4">
                                                         <h6 className="title">Development</h6>
-                                                        <ProgressBar now={57} />
-                                                        <span className="label">57%</span>
+                                                        <ProgressBar now={97} />
+                                                        <span className="label">97%</span>
                                                     </div>
                                                 </div>
                                             </div>
@@ -151,7 +151,7 @@ const InteractiveAgency = () => {
                         <div className="col-lg-12">
                             <div className="section-title text-center mb--30">
                                 <h2>Our Service</h2>
-                                <p>There are many variations of passages of Lorem Ipsum available, <br /> but the majority have suffered alteration.</p>
+                                <p>We provide best services as per client s requirement. We work on latest technologies</p>
                             </div>
                         </div>
                     </div>
